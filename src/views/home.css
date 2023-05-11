@@ -1,0 +1,32 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+@media(max-width: 991px) {
+  .home-container {
+    background-color: #373cc2;
+  }
+}
+@media(max-width: 767px) {
+  .home-container {
+    background-color: #2c3fcc;
+  }
+}
+@media(max-width: 479px) {
+  .home-container {
+    background-color: #193e90;
+  }
+  .home-textinput {
+    width: 417px;
+    height: 46px;
+  }
+  .home-button {
+    align-self: center;
+    margin-top: 60px;
+  }
+}
